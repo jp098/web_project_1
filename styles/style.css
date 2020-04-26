@@ -22,11 +22,11 @@
 }
 
 .logo {
-    position: absolute;
     z-index: 2;
 }
 
 .logo_place_header {
+    position: absolute;
     top: 30px;
     left: 64px;
     height: 31px;
@@ -92,8 +92,6 @@
 }
 
 .two-columns__span-accent {
-    line-height: 34px;
-    font-size: 24px;
     font-weight: bold;
 }
 
@@ -105,7 +103,6 @@
 
 .two-columns {
     display: flex;
-    align-items: stretch;
     justify-content: space-between;
     width: 80%;
 }
@@ -157,8 +154,9 @@
     text-align: center;
 }
 
-.section-title_theme_white {
+.digits {
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .section-subtitle {
@@ -177,12 +175,11 @@
     align-content: space-between;
     justify-content: space-between;
     width: 1100px;
-    margin-bottom: 100px;
     margin-left: auto;
     margin-right: auto;
 }
 
-.table__cell_theme_white {
+.table__cell {
     width: 250px;
     margin-right: 0;
     margin-top: 60px;
@@ -246,11 +243,17 @@
     overflow: hidden;
     position: relative;
     background-color: #1F1F1F ;
+}
+
+.kaufman__triangle {
+    position: absolute;
+    right: -210px;
+    top: 0px;
     background-image: url(../images/kaufman-triangle.svg);
     background-repeat: no-repeat;
-    background-position: right top;
     background-attachment: scroll;
-    background-size: 877px 877px;
+    width: 877px;
+    height: 877px;
 }
 
 .section-title_theme_dark {
@@ -265,10 +268,13 @@
 
 .table_theme_dark {
     margin-bottom: 90px;
+    z-index: 1;
 }
 
 .table__cell_theme_dark {
     padding-bottom: 13px;
+    width: 200px;
+    margin-top: 80px;
 }
 
 .footer {
@@ -293,12 +299,10 @@
 .footer__column_content_copyright {
     flex-basis: 711px;
     position: relative;
-   justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .logo_place_footer {
-    top: 0px;
-    left: 0px;
     width: 183px;
     height: 35px;
 }
@@ -327,10 +331,10 @@
     color: #F2F2F2;
 }
 
-.footer__column-links {
+ .footer__column-link {
+    text-decoration: none;
+    color: #F2F2F2;
     line-height: 30px;
     font-size: 18px;
     font-weight: normal;
-    color: #F2F2F2;
-    text-decoration: none;
-}
+ }
