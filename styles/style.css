@@ -139,10 +139,12 @@
     margin-bottom: 0px;
 }
 
-.digits{
+.digits {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .section-title {
@@ -152,11 +154,6 @@
     font-weight: bold;
     margin-bottom: 0px;
     text-align: center;
-}
-
-.digits {
-    margin-top: 100px;
-    margin-bottom: 100px;
 }
 
 .section-subtitle {
@@ -237,6 +234,8 @@
 }
 
 .kaufman {
+    padding-top: 90px;
+    padding-bottom: 90px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -258,7 +257,6 @@
 
 .section-title_theme_dark {
     color: white;
-    margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
@@ -267,7 +265,6 @@
 }
 
 .table_theme_dark {
-    margin-bottom: 90px;
     z-index: 1;
 }
 
