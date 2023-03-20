@@ -1,5 +1,6 @@
 # web_project_1
-Web Project 1
+
+Web Project 1 https://jp098.github.io/web_project_1/
 
 ##### Updated HTML and CSS for project 2
 
